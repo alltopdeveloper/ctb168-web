@@ -14,7 +14,7 @@
     display: flex;
     position: relative;
 
-    &.-left {
+    &.-navleft {
       flex-direction: column;
       align-items: flex-end;
       justify-content: flex-end;
@@ -35,7 +35,7 @@
       }
     }
 
-    &.-center {
+    &.-brand {
       align-items: flex-end;
       justify-content: center;
 
@@ -55,7 +55,7 @@
       }
     }
 
-    &.-right {
+    &.-navright {
       align-items: flex-end;
       justify-content: flex-start;
 
@@ -74,6 +74,24 @@
         margin: 0 0 0 rem(32px);
       }
     }
+  }
+
+  > .state > .brand {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  > .state > .navleft {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  > .state > .navright {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
   }
 }
 
@@ -148,4 +166,7 @@
   &.-right {
     margin: 0 auto 0 0;
   }
+}
+
+.ctb168-header {
 }

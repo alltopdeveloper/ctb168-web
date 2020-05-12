@@ -43,7 +43,7 @@
   }
 }
 
-.ctb168-modallogin {
+.ctb168-mmodal {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +52,7 @@
   padding: 0 rem(16px);
 }
 
-.ctb168-brand {
+.mmodal-brand {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -69,7 +69,7 @@
   }
 }
 
-.ctb168-request {
+.mmodal-request {
   width: 100%;
 
   > .state {
@@ -78,7 +78,7 @@
   }
 }
 
-.ctb168-navbar {
+.ctb168-mnav {
   width: 100%;
   height: rem(64px);
 
@@ -100,7 +100,7 @@
   }
 }
 
-.ctb168-providers {
+.ctb168-mproviders {
   display: none;
   opacity: 0;
   visibility: hidden;
@@ -124,7 +124,7 @@
   }
 }
 
-.ctb168-product {
+.mproviders-product {
   width: 100%;
   position: relative;
 
